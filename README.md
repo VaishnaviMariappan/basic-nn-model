@@ -64,8 +64,8 @@ X_train1 = Scaler.transform(X_train)
 X_train1
 
 ai=Sequential([
-    Dense(7,activation='relu'),
-    Dense(14,activation='relu'),
+    Dense(6,activation='relu'),
+    Dense(13,activation='relu'),
     Dense(1)
 ])
 ai.compile(optimizer='rmsprop',loss='mse')
